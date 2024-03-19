@@ -19,7 +19,7 @@ export function ModeToggle() {
     <DropdownMenu>
       <DropdownMenuTrigger className="focus:ring-0 outline-none" asChild>
         <Button
-          className="border-none bg-transparent hover:bg-transparent ring-0 focus:ring-[0!important] focus:border-none focus:outline-none"
+          className="border-none bg-transparent hover:bg-transparent ring-0 focus:ring-[0!important] focus:border-none focus:outline-none z-30"
           variant="outline"
           size="icon"
         >
@@ -30,13 +30,13 @@ export function ModeToggle() {
       </DropdownMenuTrigger>
       <DropdownMenuContent align="center">
         <DropdownMenuItem onClick={() => setTheme("light")}>
-          Light
+          Tema claro
         </DropdownMenuItem>
         <DropdownMenuItem onClick={() => setTheme("dark")}>
-          Dark
+          Tema escuro
         </DropdownMenuItem>
         <DropdownMenuItem onClick={() => setTheme("system")}>
-          System
+          Sistema
         </DropdownMenuItem>
       </DropdownMenuContent>
     </DropdownMenu>

@@ -1,6 +1,6 @@
 "use client";
 
-import { ImageCard } from "./image-card";
+import { ImageCarouselDrawer } from "./image-card";
 
 interface RequireContext {
   keys(): string[];
@@ -23,11 +23,11 @@ export function Gallery() {
   );
 
   return (
-    <div className="flex gap-4 flex-col">
+    <div id="gallery" className="flex gap-4 flex-col">
       <h1 className=" text-4xl uppercase font-bold">Galeria de fotos</h1>
       <div data-aos="fade-right" className="flex flex-wrap gap-8">
         {images.map((image: unknown, idx: number) => (
-          <ImageCard image={image} idx={idx} images={images}/>
+          <ImageCarouselDrawer key={idx} image={image} idx={idx} images={images} />
         ))}
       </div>
     </div>

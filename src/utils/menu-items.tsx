@@ -1,21 +1,21 @@
 const MenuItems = [
   {
     Name: "Inicio",
-    to: "#",
+    to: "hero",
   },
 
   {
     Name: "Sobre mim",
-    to: "#about",
+    to: "about",
   },
 
   {
     Name: "Galeria de midia",
-    to: "#galery",
+    to: "gallery",
   },
   {
     Name: "Contato",
-    to: "#contact",
+    to: "contact",
   },
 ];
 

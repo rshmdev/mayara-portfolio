@@ -69,6 +69,7 @@
 @layer base {
   * {
     @apply border-border;
+    scroll-behavior: smooth;
   }
 
   .about-bg {
@@ -83,11 +84,10 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0% 20%;
-
   }
 
   *::-webkit-scrollbar {
-    width: 10px;
+    width: 6px;
   }
 
   *::-webkit-scrollbar-track {
@@ -103,5 +103,6 @@
   body {
     @apply bg-background text-foreground;
     position: relative;
+    scroll-behavior: smooth;
   }
 }

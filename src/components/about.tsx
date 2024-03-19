@@ -1,10 +1,10 @@
 export function About() {
   return (
-    <div data-aos="fade-right" className="flex gap-8 flex-wrap">
+    <div data-aos="fade-right" id="about" className="flex gap-8 flex-wrap">
       <div className="about-bg flex-1 rounded-md min-w-[250px] sm:min-w-[430px] h-[500px]"/>
 
       <div className="flex-1 flex items-center justify-center min-w-[280px] md:min-w-[420px]">
-        <p className="text-lg leading-10">
+        <p className="text-lg leading-10 font-medium">
           Olá, sou Hailey, uma modelo fotográfica apaixonada pela arte da
           fotografia. Cresci no Rio de Janeiro, onde aprendi a valorizar a
           beleza em todas as formas. Cada sessão de fotos é uma oportunidade de
